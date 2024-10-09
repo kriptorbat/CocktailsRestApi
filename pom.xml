@@ -30,7 +30,11 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.3.0</version> <!-- Убедитесь, что используете актуальную версию -->
+        </dependency>
     </dependencies>
     <build>
         <plugins>
